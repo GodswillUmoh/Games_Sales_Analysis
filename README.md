@@ -13,5 +13,27 @@ This is an analysis of Sales Report for Games Across the Continent.
   |4|	Wii| Sports Resort|	Wii|	2009|	Sports|	Nintendo|	15.75|	11.01|	3.28|	2.96|	33|
   |5|	Pokemon Red/Pokemon| Blue|	GB|	1996|	Role-Playing|	Nintendo|	11.27|	8.89|	10.22|	1|	31.37|
 
-## 
+## Data Insights
+> In the analysis, we saw that the highest sales is from Nintendo where total revenue across continent is about 17.81K Dollars.
+> This is an interesing visual
+
+## SQL Queries
+
+```SQL
+SELECT * FROM games;
+```
+```SQL
+SELECT name FROM games;
+```
+```SQL
+SELECT EU_sales, JP_Sales FROM games;
+```
+```SQL
+SELECT COUNT (publishers) FROM games
+where publisher = 'Nintendo';
+```
+```SQL
+SELECT SUM (NA_Sales) FROM games
+GROUP BY publisher;
+```
 
