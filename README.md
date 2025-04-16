@@ -41,6 +41,6 @@ GROUP BY publisher;
 ### Dashboard
 ![Screenshot (353)](https://github.com/user-attachments/assets/47504bf6-c6f2-4569-91a4-467e65387566)
 
-[To view Dashboard, Click Here](www.google.com)
+[To view Dashboard, Click Here](https://ibb.co/7NZqMz46)
 
 
