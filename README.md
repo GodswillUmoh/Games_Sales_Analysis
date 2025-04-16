@@ -37,3 +37,7 @@ SELECT SUM (NA_Sales) FROM games
 GROUP BY publisher;
 ```
 
+## Visualization
+### Dashboard
+
+
